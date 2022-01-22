@@ -18,3 +18,5 @@ f(5) = 7.5 + 2
 f(5) = 9.5
 
 Hence, the y = 9.5 when x = 5
+
+It also includes a simple to-do list that will help you in managing your tasks.
