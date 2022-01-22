@@ -1,0 +1,39 @@
+Hello there... My name is Sidharth and I will be
+ explaining team Synergy's Linear Regression 
+ model and how it works,
+
+first we start off by importing the modules that
+we need for the Linear Regression model this 
+includes numpy, pandas, matplotlib and sklearn.
+
+After that we import the data which is in this 
+csv. Then we split it to the dependent features 
+and independent features.
+
+Next, we split our independent features and 
+dependent features into our training and 
+testing data with a test size of 10% and a 
+random state of 420 which acts as a key to 
+identify the random state.
+
+Then, we make our model and train it using the 
+fit function, following that we make our first 
+prediction using the model which is in the 
+y_pred_linear variable.
+
+Following that, we calculated the root mean 
+squared error which gives us an approx value of 
+how off our model is in predicting values. 
+First we calculate the mean squared error using 
+a function called mean_squared_error and then 
+we take the root of that value to get the root 
+mean squared error.
+
+Lastly we make a scatter plot to see how linear 
+is our relation between the predicted and test 
+values of our model, as the more linear it is 
+the more accurate the model is.
+
+Now we're done! All we have to do is do one 
+final predict with taking the user input 
+(show the final output) 
