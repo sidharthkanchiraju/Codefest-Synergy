@@ -1,0 +1,65 @@
+## Inspiration
+
+We decided that we want a Machine Learning that predicts your marks because of a friend that keeps 
+demanding teachers for his marks! (and to ease anxiety but, mostly just the first reason). We also want a 
+note taking app that has a lot of organising features that is also easy to use with many other features 
+on the way mainly due to the fact that note taking is a lot of work and It will be easier on students if 
+these features are already built into the app. After all this is an app for the students by the students.
+
+## What it does
+
+This project consists of a mark predictor using a Linear Regression algorithm and a note taking app that 
+has features such as speech recognition easy to use and intuitve controls
+
+Our project idea is to make a note-taking app, this app is special because it has many features that a 
+modern note-taking app has along with many more features. This is done by incorporating a variety of APIs
+which will then increase the functionality of our app.
+
+Our app idea revolutionizes mordern day note-taking given the circumstances of the global pandemic. It 
+includes structure and revision formats which helps the target demographic to revise and connect the dots 
+between their studies. This particular app includes features like actice recall, highlight text, To-do 
+list and much more. Additionally the application is aesthetically pleasing and user friendly.
+
+For our mark predictor we are using an algorithm that is based off of linear graphs and the slope concept 
+or the equation more famously known as y = mx + b. Where m = slope and b = y-intercept.
+
+Let's say we have a linear graph with a slope of 3/2 and a y-intercept of 5 we will get an equation of 
+y = 3x/2 + 5
+
+And if we want a certain y value for a certain x value such as x = 5 y = ? we can input x into the 
+equation and we can write this as an function: f(x) = 3x/2 + 5
+
+f(5) = 3(5) / 2 + 5 
+f(5) = 7.5 + 2 
+f(5) = 9.5
+
+Hence, the y = 9.5 when x = 5
+## How we built it
+
+We built it using Jupyter notebook and using Django libraries as well as the Tkinter in built library to 
+make this app. 
+
+## Challenges we ran into
+
+We faced numerous issues including but not limited to the logical erros faced. The libraries used and 
+algorithms used. A major problem for our application was that we had to switch libraries for the 
+functionality of the note-taking app from tkinter to the virtual environment framework of Django. 
+The installation process itself took a lot of time let alone learning the cmd syntax. Another issue we 
+faced was with the accuracy of the linear regression module
+
+## Accomplishments that we're proud of
+
+We got the dropdown box of the UI of the note taking app to work after a long time. We also got the 
+Linear Regression algorithm to show higher accuracy after doing some pre-processing to our data.
+
+## What we learned
+
+Django works on the concepts of servers and that it runs on a multitude of code files that all run 
+simultaneously. We also learnt how to increase the accuracy of linear regression models as well. We 
+also learnt a lot of things about Tkinter that we didn't know about before
+
+## What's next for Toolbox
+We are thinking of using a decision tree algorithm next as we might use more features to predict a 
+person's marks. We are also thinking about making it more aesthetically pleasing. We are also doing 
+app specific features such as back linking, toggling, mind maps, improving the speech recognition app, 
+side by side text, improving speech recognition etc.
